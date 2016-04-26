@@ -7,10 +7,7 @@ def sum_digits(A):
 	'''
 	total = 0
 	for i in A:
-		digit =str (i)
-		digit.split()
-
-		for i in digit:
+		for i in str (i):
 			total+=int(i)
 
 	return total
