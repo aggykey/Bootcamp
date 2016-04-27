@@ -5,14 +5,14 @@ def data_type(x):
 	-for a float,return x/2
 	-for a string,returns"hello" + x
 	-for a boolean ,returns"boolean"
-	-for a  long,return squareroot(x)
+	-for a  long,return 'long'
 	'''
 	if type(x) == int:
 		return x ** 2
 	elif type(x) == float:
 		return x / 2
 	elif type(x) == str:
-		return "hello"+ x
+		return "Hello "+ x
 	elif type(x) == bool:
 		return "boolean"
 	elif type (x) == long:
@@ -20,7 +20,7 @@ def data_type(x):
 	else:
 		return ()
 
-print data_type(1)
+print data_type(4)
 print data_type(2.4)
 print data_type('hello')
 print data_type(True)
