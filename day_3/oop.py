@@ -1,23 +1,16 @@
+from person import Person
+from kenyan import Kenyan
 
-
-class Person:
-	people_count = 0
-#initializa an object
-	def __init__(self, name, age):
-		self.name = name
-		self.age = age
-		Person.people_count += 1
-
-	def __repr__ (self):
-		return " < object: {}, {}> ".format (self.name,self.age)
-
-
-
-	def say_hello(self):
-		return "Hello,I'm {} and {} y/o".format (self.name,self.age)
 
 
 P = Person('Joe',23)
+
+
+
+
+print P
+  
+
 P2 = Person('Jane',23)
 P3= Person('George',40)
 
