@@ -12,8 +12,3 @@ def funky (a,b):
   else:
     print ('invalid output')
 
-funky (1,2)
-funky(3.5,5)
-funky('heey' ,'there')
-funky([1,2,3],['he','she','them'])
-funky({'a':1,'b':2},{'c':3,'d':4})
