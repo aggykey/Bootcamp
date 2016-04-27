@@ -7,3 +7,11 @@ print hello_again('Joe',89)
 print super_sum(*a)
 print max_min(a)
 
+print hello_again ('Joe',89)
+
+print super_sum (*a)
+
+print max_min(a)
+
+print hellow_again(*person[0])
+
