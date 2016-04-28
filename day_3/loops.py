@@ -16,12 +16,12 @@ x:2,y:4
 x=5,x=10
 '''
 
-for x,y in b:
-	print 'x:{}'.format(x), 'y:{}'.format(y)
+#for x,y in b:
+	#print 'x:{}'.format(x), 'y:{}'.format(y)
 #assignment
 f = [(10, 20, 40),(10, 40),(4, 5, 50)]
 
 for p in f: 
 	p = len(f)
-		if p>2
-print 'x:{}'.format(x), 'y:{}'.format(y), 'z:{}'.format(y)
+	if p > 2:
+		print 'x:{}'.format(x), 'y:{}'.format(y), 'z:{}'.format(y)
