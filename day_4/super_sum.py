@@ -11,17 +11,13 @@ def super_sum(*args):
 	"""
 	total = 0
 
-	if not args:
-		return 0
-
-	else:
+	if args:
 		for x in args:
 			if type(x) ==list:
 				total += sum(x)
-
 			elif type(x) == str:
 				return 0
 			else:
 				total += x
-
 		return total
+	return 0
